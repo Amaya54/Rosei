@@ -1,0 +1,71 @@
+
+body{font-family:Nova Square;color:white;}
+#wrapper{position:absolute; height:100%; width:100%; top:0px; left:0px; z-index:0; overflow:hidden;}
+#header{position:fixed; width:100%; height:60px; top:80px; float:left; left:0px; background:rgba(29,152,7,0.7); -ms-box-shadow:0px 3px 8px rgb(0,50,0); -o-box-shadow:0px 3px 8px rgb(0,50,0); -moz-box-shadow:0px 3px 8px rgb(0,50,0); -webkit-box-shadow:0px 3px 8px rgb(0,50,0); box-shadow:0px 3px 8px rgb(0,50,0); z-index:5;}
+#coupon1{position:absolute; top:100px; left:20px; min-height:530px; height:70%; min-width:800px; width:55%;  z-index:3;}
+#matrix{z-index:3; position:absolute; min-width:470px; left:860px; top:160px; min-height:400px; height:70%;}
+#h1{position:absolute; top:-18px; left:400px; z-index:5;  font-size:30px; height:50px; text-shadow:0px 0px 4px rgb(10,46,1);}
+#h1:hover{position:absolute; top:-18px; left:400px; z-index:5; font-size:30px; height:50px; text-shadow:0px 0px 1px rgb(10,46,1);}
+#h2{position:absolute; font-size:30px; top:15px; left:650px; color:black; text-shadow:0px 0px 4px rgb(10,46,1);}
+#h2:hover{position:absolute; font-size:30px; top:15px; left:650px; color:black; text-shadow:0px 0px 1px rgb(10,46,1);}
+#h3{position:absolute; font-size:30px; top:15px; left:910px; text-shadow:0px 0px 4px rgb(10,46,1);}
+#h3:hover{position:absolute; font-size:30px; top:15px; left:910px; text-shadow:0px 0px 1px rgb(10,46,1);}
+//#t1{text-shadow:0px 0px 1px rgb(10,46,1); color:white;}
+//#t2{text-shadow:0px 0px 0px rgb(19,99,7); color:rgba(10,46,1,0.5);}
+#move{position:absolute; left:80px;}
+//#single{position:absolute; top:20px; left:80px; min-height:420px; min-width:600px; height:70%; width:55%; background:rgba(65,170,7,0.5);}
+#recharge{position:absolute; top:20px; left:1000px; min-height:420px; min-width:600px; height:70%; width:55%; background:rgba(65,170,7,0.5);}
+#history{position:absolute; top:20px; left:1920px; min-height:420px; min-width:600px; height:70%; width:55%; background:rgba(65,170,7,0.5);}
+//@-webkit-keyframes move{from{} to{}}
+/*
+@-webkit-keyframes sleft{from{left:80px} to{left:-920px;}}
+@-moz-keyframes sleft{from{left:80px} to{left:-920px;}}
+@-o-keyframes sleft{from{left:80px} to{left:-920px;}}
+@keyframes sleft{from{left:80px} to{left:-920px;}}
+@-webkit-keyframes rleft{from{left:1000px} to{left:80px;}}
+@-moz-keyframes rleft{from{left:1000px} to{left:80px;}}
+@-o-keyframes rleft{from{left:1000px} to{left:80px;}}
+@keyframes rleft{from{left:1000px} to{left:80px;}}
+@-webkit-keyframes sright{from{left:-920px} to{left:80px;}}
+@-moz-keyframes sright{from{left:-920px} to{left:80px;}}
+@-o-keyframes sright{from{left:-920px} to{left:80px;}}
+@keyframes sright{from{left:-920px} to{left:80px;}}
+@-webkit-keyframes rright{from{left:80px} to{left:1000px;}}
+@-moz-keyframes rright{from{left:80px} to{left:1000px;}}
+@-o-keyframes rright{from{left:80px} to{left:1000px;}}
+@keyframes rright{from{left:80px} to{left:1000px;}}
+*/
+@-webkit-keyframes fade{from{position:absolute; top:-70px; opacity:1; padding:10px; width:75px;} to{position:absolute; top:-120px; width:75px; opacity:0; padding:10px;}}
+@-moz-keyframes fade{from{position:absolute; top:-70px; opacity:1; padding:10px; width:75px;} to{position:absolute; top:-120px; width:75px; opacity:0; padding:10px;}}
+@-o-keyframes fade{from{position:absolute; top:-70px; opacity:1; padding:10px; width:75px;} to{position:absolute; top:-120px; width:75px; opacity:0; padding:10px;}}
+@keyframes fade{from{position:absolute; top:-70px; opacity:1; padding:10px; width:75px;} to{position:absolute; top:-120px; width:75px; opacity:0; padding:10px;}}
+#Coupon{position:absolute; colo:rgb(183,132,13); box-shadow:0px 3px 10px rgb(0,50,0); top:20px; left:0px; min-height:400px; min-width:600px; height:65%; width:55%; borde:1px solid black;z-index:3;}
+#Coupon tr td{borde:1px solid black; height:50px; left:35px;}
+#Coupon tr th{border:1px solid black; height:50px; left:35px; background:rgba(65,170,7,0.5);}
+#Coupon tr td div{position:relative; left:45px; float:left; height:20px; width:50px; padding:7px; background:rgba(65,170,7,0.5); border:1px solid black; z-index:10;}
+#oneclick2{position:relative; left:50px; float:left; height:20px; width:45px; padding:7px; background:red; border:1px solid black; z-index:10; box-shadow:2px 2px 4px black;}
+#doubleclick2{position:relative; left:50px; float:left; height:20px; width:45px; padding:7px; background:green; border:1px solid black; z-index:10; box-shadow:2px 2px 8px black;}
+#display{position:absolute;  box-shadow:0px 3px 10px rgb(0,50,0); top:20px; padding:1px; left:0px; min-height:418px; float:left; min-width:470px; height:70%; }
+#display tr td{border:1px solid black; height:53px; left:35px; padding:5px; background:rgba(65,170,7,0.5);}
+#display tr th{border:1px solid black; background:rgba(65,170,7,0.5); padding:5px; width:100px;}
+#display tr td div{position:relative; float:left; background:rgba(65,170,7,0.5);text-align:center; left:30px; padding:2px; border:1px solid black; height:22px; width:28px; border-radius:16px;}
+#frame{position:absolute; height:50px; float:center; top:-120px; border-radius:15px; -webkit-animation:fade 2s ease-out; opacity:0; text-align:center;}
+#veg{position:absolute; padding:5px; background:rgba(0,100,0,0.6); border-radius:1px; border:1px solid black;  width:60px; text-align:center; font-family:"Century"; font-size:25px; visibility:hidden;}
+#nonveg{position:absolute; padding:5px; background:rgba(0,100,0,0.6); border-radius:1px; border:1px solid black; height:29px; text-align:center; font-family:"Century"; font-size:25px; visibility:hidden;}
+@-webkit-keyframes pop1{0%{position:absolute; left:-20px; box-shadow:0px 0px 2px rgba(0,100,0,1); width:122px; top:-50px; text-align:center; font-family:"Century"; font-size:25px; visibility:visible; height:29px; z-index:10;} 100%{left:-20px; position:absolute; box-shadow:0px 10px 15px rgba(0,100,0,1);; height:29px; text-align:center; font-family:"Century"; font-size:25px; top:-100px; width:122px; visibility:hidden; z-index:1;}}
+@-webkit-keyframes pop2{0%{position:absolute; width:72px; box-shadow:0px 0px 2px rgba(0,100,0,1); top:-50px; text-align:center; font-family:"Century"; font-size:25px; visibility:visible; height:29px; z-index:10;} 100%{position:absolute; height:29px; box-shadow:0px 10px 15px rgba(0,100,0,1); text-align:center; font-family:"Century"; font-size:25px; top:-100px; width:72px; visibility:hidden; z-index:1;}}
+#menu{position:absolute; borde:1px solid black; box-shadow:0px 3px 10px rgb(0,50,0); left:17%; width:900px; top:100%; height:450px;  background:rgba(65,190,7,0.5);}
+//#menu:hover{-webkit-animation:open 2s;}
+#head{position:absolute; top:-30px; left:46%; padding:3px; width:65px; height:23px; backgroun:grey; float:center; font-family:"Century"; font-size:20px; color:green; text-align:center; text-shadow:0px 0px 4px green;}
+//#head:hover{font-size:22px; color:rgba(65,170,7,1); text-shadow:0px 0px 4px green; text-align:center;}
+@-webkit-keyframes open{from{position:absolute; top:100%;} to{}}
+#card{position:fixed; right:50px; height:82px; top:0px;}
+#cash{position:fixed; right:55px; height:75px; top:10px; width:100px; color:rgb(88,52,12); text-align:center; font-size:13px;}
+#user{position:absolute; overflow:hidden; height:50px; padding:2px; left:1150px; border-radius:1px; top:18px; box-shadow:0px 0px 10px rgb(0,100,0); text-shadow:0px 0px 1px rgb(10,46,1); text-align:center; font-size:25px;}
+#user p{text-shadow:0px 0px 1px rgb(10,46,1); text-align:center; font-size:15px;}
+#user:hover{box-shadow:0px 0px 4px rgb(0,100,0);}
+@-webkit-keyframes userDrop{from{height:30px;} to{height:140px; background:rgba(65,170,7,0.8); }}
+#rasoi{font-size:40px; color:rgb(88,52,12); text-shadow:0px 0px 10px rgb(226,136,35), 0px 0px 2px black;}	
+
+
+

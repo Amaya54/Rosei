@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>rosei</display-name>
+  <welcome-file-list>
+  <welcome-file>LoginPage.jsp</welcome-file>
+   </welcome-file-list>
+<servlet>
+  <servlet-name>LoginServlet</servlet-name> 
+  <servlet-class>LoginPackage.LoginServlet</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name> 
+  <url-pattern>/Servlet/LoginServlet</url-pattern> 
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>ControllerCreateUser</servlet-name> 
+  <servlet-class>Controller.ControllerCreateUser</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerCreateUser</servlet-name> 
+  <url-pattern>/Servlet/ControllerCreateUser</url-pattern> 
+  </servlet-mapping>
+  <servlet>
+<servlet-name>ControllerCreateCoupon</servlet-name> 
+  <servlet-class>Controller.ControllerCreateCoupon</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerCreateCoupon</servlet-name> 
+  <url-pattern>/Servlet/ControllerCreateCoupon</url-pattern> 
+  </servlet-mapping>
+  <servlet>
+<servlet-name>ControllerUpdateMenu</servlet-name> 
+  <servlet-class>Controller.ControllerUpdateMenu</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerUpdateMenu</servlet-name> 
+  <url-pattern>/Servlet/ControllerUpdateMenu</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+<servlet-name>ControllerRecharge</servlet-name> 
+  <servlet-class>Controller.ControllerRecharge</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerRecharge</servlet-name> 
+  <url-pattern>/Servlet/ControllerRecharge</url-pattern> 
+  </servlet-mapping>
+  <servlet>
+<servlet-name>ControllerIssueCoupon</servlet-name> 
+  <servlet-class>Controller.ControllerIssueCoupon</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerIssueCoupon</servlet-name> 
+  <url-pattern>/Servlet/ControllerIssueCoupon</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+<servlet-name>ControllerviewRecharge</servlet-name> 
+  <servlet-class>Controller.ControllerviewRecharge</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerviewRecharge</servlet-name> 
+  <url-pattern>/Servlet/ControllerviewRecharge</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+<servlet-name>ControllerviewBookingDetail</servlet-name> 
+  <servlet-class>Controller.ControllerviewBookingDetail</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerviewBookingDetail</servlet-name> 
+  <url-pattern>/Servlet/ControllerviewBookingDetail</url-pattern> 
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>ControllerGeneratePdf</servlet-name> 
+  <servlet-class>Controller.ControllerGeneratePdf</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerGeneratePdf</servlet-name> 
+  <url-pattern>/Servlet/ControllerGeneratePdf</url-pattern> 
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>ControllerGenerateCouponPdf</servlet-name> 
+  <servlet-class>Controller.ControllerGenerateCouponPdf</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerGenerateCouponPdf</servlet-name> 
+  <url-pattern>/Servlet/ControllerGenerateCouponPdf</url-pattern> 
+  </servlet-mapping>
+  
+   
+   <servlet>
+ <servlet-name>ControllerGenerateReceipt</servlet-name> 
+  <servlet-class>Controller.ControllerGenerateReceipt</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerGenerateReceipt</servlet-name> 
+  <url-pattern>/Servlet/ControllerGenerateReceipt</url-pattern> 
+  </servlet-mapping>
+  
+  
+<servlet>
+<servlet-name>ControllerUpdateMealPrice</servlet-name> 
+  <servlet-class>Controller.ControllerUpdateMealPrice</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerUpdateMealPrice</servlet-name> 
+  <url-pattern>/Servlet/ControllerUpdateMealPrice</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+<servlet-name>ControllerContractorBooking</servlet-name> 
+  <servlet-class>Controller.ControllerContractorBooking</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerContractorBooking</servlet-name> 
+  <url-pattern>/Servlet/ControllerContractorBooking</url-pattern> 
+  </servlet-mapping>
+  
+   <servlet>
+<servlet-name>ControllerMessTransaction</servlet-name> 
+  <servlet-class>Controller.ControllerMessTransaction</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerMessTransaction</servlet-name> 
+  <url-pattern>/Servlet/ControllerMessTransaction</url-pattern> 
+  </servlet-mapping>
+  
+     <servlet>
+<servlet-name>ControllerAccountSettings</servlet-name> 
+  <servlet-class>Controller.ControllerAccountSettings</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerAccountSettings</servlet-name> 
+  <url-pattern>/Servlet/ControllerAccountSettings</url-pattern> 
+  </servlet-mapping>
+  
+    <servlet>
+<servlet-name>ControllerAllStudentPrint</servlet-name> 
+  <servlet-class>Controller.ControllerAllStudentPrint</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerAllStudentPrint</servlet-name> 
+  <url-pattern>/Servlet/ControllerAllStudentPrint</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+<servlet-name>ControllerEmergencyPrint</servlet-name> 
+  <servlet-class>Controller.ControllerEmergencyPrint</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerEmergencyPrint</servlet-name> 
+  <url-pattern>/Servlet/ControllerEmergencyPrint</url-pattern> 
+  </servlet-mapping>
+  
+  <servlet>
+<servlet-name>ControllerRegister</servlet-name> 
+  <servlet-class>Controller.ControllerRegister</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerRegister</servlet-name> 
+  <url-pattern>/Servlet/ControllerRegister</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>ControllerDeleteUser</servlet-name> 
+  <servlet-class>Controller.ControllerDeleteUser</servlet-class> 
+  </servlet>
+<servlet-mapping>
+  <servlet-name>ControllerDeleteUser</servlet-name> 
+  <url-pattern>/Servlet/ControllerDeleteUser</url-pattern> 
+  </servlet-mapping>
+</web-app>
+

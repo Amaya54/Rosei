@@ -1,0 +1,24 @@
+body{font-family:Nova Square;color:white;}
+#Coupon{position:absolute;  overflow:hidden; box-shado:0px 3px 10px rgb(0,50,0); top:0px; left:0px; min-height:410px; min-width:600px; height:85%; width:55%; borde:1px solid black;z-index:3;}
+#Coupon tr td{position:relative; borde:1px solid black; heigh:55px; width:25%;}
+#Coupon tr th{borde:1px solid black; heigh:30px; background:rgba(2,96,119,0.5);}
+#Coupon tr td div{position:relative; cursor:pointer; lef:0px; float:left; height:38px; width:130px; padding:7px; background:rgba(2,96,119,0.5); borde:1px solid black; z-index:10;}
+#Coupon tr td div p{position:relative; cursor:pointer; top:-10px;}
+#veg{position:absolute; left:0px; top:0px; padding:5px; background:rgba(0,100,0,0.6); border-radius:1px; border:1px solid black;  width:60px; text-align:center; font-family:"Century"; font-size:25px; visibility:hidden;}
+#nonveg{position:absolute; left:0px; top:0px; padding:5px; background:rgba(0,100,0,0.6); border-radius:1px; border:1px solid black; height:29px; text-align:center; font-family:"Century"; font-size:25px; visibility:hidden;}
+@-webkit-keyframes pop1{0%{position:absolute; left:0px; box-shadow:0px 0px 2px rgba(0,100,0,1); width:122px; top:-50px; text-align:center; font-family:"Century"; font-size:25px; visibility:visible; height:29px; z-index:10;} 100%{left:0px; position:absolute; box-shadow:0px 10px 15px rgba(0,100,0,1); height:29px; text-align:center; font-family:"Century"; font-size:25px; top:-100px; width:122px; visibility:hidden; z-index:1;}}
+@-webkit-keyframes pop2{0%{position:absolute; width:72px; box-shadow:0px 0px 2px rgba(0,100,0,1); top:-50px; text-align:center; font-family:"Century"; font-size:25px; visibility:visible; height:29px; z-index:10;} 100%{position:absolute; height:29px; box-shadow:0px 10px 15px rgba(0,100,0,1); text-align:center; font-family:"Century"; font-size:25px; top:-100px; width:72px; visibility:hidden; z-index:1;}}
+@-webkit-keyframes p{0%{ } 100%{}}
+#submit{position:absolute; borde:1px solid black; cursor:pointer; border-radius:5px; box-shadow:1px 1px 2px black; top:450px; left:270px; padding:4px; font-size:115%; heigh:30px; widt:70px; background:rgba(2,96,119,0.5);}
+#submit:hover{box-shadow:inset 1px 1px 2px black;}
+
+
+
+
+
+
+
+
+
+
+

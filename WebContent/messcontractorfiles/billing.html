@@ -1,0 +1,65 @@
+<html>
+<head>
+<style type="text/css">
+.set
+{
+	position:absolute;
+	left:30%;
+	top:18%;
+}
+table.hovertable 
+{
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: black;
+	border-collapse: collapse;
+	
+}
+table.hovertable th 
+{
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding:8px;
+	border-style: solid;
+	border-color: black;
+}
+table.hovertable tr
+{
+	background-color:#d4e3e5;
+}
+table.hovertable td 
+{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: black;
+}
+</style>
+<head>
+<body bgcolor="#305083">
+<div class="set">
+<table class="hovertable" width="600px" height="400px">
+<tr>
+	<th>Mess Information</th><th>Amount Refunded</th>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>Coupons Issued<td>X Amount of rupees</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>Amount refunded after cancellation</td><td>Y amount of rupees</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>Service tax</td><td>13.7% of the amount</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>Value Added Tax</td><td>13.5% of the amount</td>
+</tr>
+<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+	<td>Total amount refunded</td><td>Total amount=X+Y+VAT+SERVICE TAX</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
